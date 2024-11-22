@@ -3,9 +3,9 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage(){
     return (
-        <div className="w-full h-screen bg-zinc-900 pt-1">
+        <div className="w-full h-screen bg-white pt-1">
             <div className="textstructure mt-40 px-20">
-                {["The CTO", "AT PERSIST", "VENTURES"].map((item, index) => (
+                {["The CTO AT", "PERSIST", "VENTURES"].map((item, index) => (
                     <div className="masker">
                         <div className="w-fit flex items-end overflow-hidden">
                             {index === 1 && (
