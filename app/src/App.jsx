@@ -1,10 +1,13 @@
 import React from 'react';
 import Navbar from "./components/Navbar.jsx";
+import LandingPage from "./components/LandingPage.jsx";
+
 
 const App = () => {
     return (
-        <div className="w-full h-screen bg-zinc-900 text-white">
+        <div className="w-full h-screen text-white">
             <Navbar/>
+            <LandingPage/>
         </div>
     )
 }
