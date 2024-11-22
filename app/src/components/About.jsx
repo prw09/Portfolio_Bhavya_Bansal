@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black">
-            <h1 className="font-['Neue_Montreal'] text-[5vw] leading-[5.5vw] font-thin">
+        <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-[#212121]">
+            <h1 className="font-['Neue_Montreal'] text-[5vw] leading-[5.5vw] font-normal">
                 We are on mission to make the world a better place
                 through scaling projects with friends and partners
             </h1>

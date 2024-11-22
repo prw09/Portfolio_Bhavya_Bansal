@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar()  {
+function Navbar() {
     return (
 
         <div className="fixed z-[999] w-full px-16 py-4 font-['Neue_Montreal'] flex justify-between items-center">
@@ -21,11 +21,14 @@ function Navbar()  {
                         fill="currentColor"></path>
                 </svg>
             </div>
-            <div className="links flex gap-10">
+            <div className="links flex gap-10 cursor-pointer">
                 {["Services", "Our Work", "Work", "Insights", "Contact"].map((item, index) => (
-                    <a key={index} className={`text-lg capitalize text-medium ${
-                        index === 4 && "ml-32"
-                    }`}>
+                    <a
+                        key={index}
+                        className={`text-lg capitalize font-normal transition-transform duration-300 hover:scale-105 ${
+                            index === 4 ? "ml-32" : ""
+                        }`}
+                    >
                         {item}
                     </a>
                 ))}
@@ -37,3 +40,4 @@ function Navbar()  {
 }
 
 export default Navbar;
+
