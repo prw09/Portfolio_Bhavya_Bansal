@@ -21,11 +21,11 @@ function Navbar() {
                         fill="currentColor"></path>
                 </svg>
             </div>
-            <div className="links flex gap-10 cursor-pointer">
+            <div className="links flex gap-10  cursor-pointer">
                 {["Services", "Our Work", "Work", "Insights", "Contact"].map((item, index) => (
                     <a
                         key={index}
-                        className={`text-lg capitalize font-normal transition-transform duration-300 hover:scale-105 ${
+                        className={`block text-xl font-light transition-transform duration-300 hover:scale-105 ${
                             index === 4 ? "ml-32" : ""
                         }`}
                     >

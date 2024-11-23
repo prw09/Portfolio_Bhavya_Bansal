@@ -6,9 +6,13 @@ import About from "./components/About.jsx";
 import Playful from "./components/Playful.jsx";
 import Featured from "./components/Featured.jsx";
 import Card from "./components/Cards.jsx";
+import Footer from "./components/Footer.jsx";
+import LocomotiveScroll from 'locomotive-scroll';
 
+function App() {
 
-const App = () => {
+    const locomotiveScroll = new LocomotiveScroll();
+
     return (
         <div className="w-full h-screen text-[#212121]">
             <Navbar/>
@@ -18,6 +22,7 @@ const App = () => {
             <Playful/>
             <Featured/>
             <Card/>
+            <Footer/>
         </div>
     )
 }
